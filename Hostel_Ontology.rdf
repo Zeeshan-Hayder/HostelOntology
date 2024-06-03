@@ -1,0 +1,662 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/Zeeshan_Haider/Hostel/"
+     xml:base="http://www.semanticweb.org/Zeeshan_Haider/Hostel/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:sbeo="https://w3id.org/sbeo#"
+     xmlns:sosa="http://www.w3.org/ns/sosa/"
+     xmlns:schema="https://schema.org/">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/Zeeshan_Haider/Hostel">
+        <owl:versionIRI rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasAccessTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasAccessTo">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#Academic_Facilities_and_Resources"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#Library"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasAccessToHealthcareFacility -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasAccessToHealthcareFacility">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#Health_and_Safety"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#HealthcareFacility"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasBookingSystem -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasBookingSystem">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#Academic_Facilities_and_Resources"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#BookingSystem"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasCCTVSurveillance -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasCCTVSurveillance">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#Health_and_Safety"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#SecurityMeasure"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasClothesWashingArea -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasClothesWashingArea">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#Laundry_Services"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#ClothesWashingArea"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasCollaborationWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasCollaborationWith">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#Academic_Facilities_and_Resources"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#AcademicInstitution"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasHygienicMessFacility -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasHygienicMessFacility">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#Food_Services"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#MessFacility"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasInternetConnection -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasInternetConnection">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#Academic_Facilities_and_Resources"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#InternetConnection"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasKitchenFacility -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasKitchenFacility">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#Food_Services"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#KitchenFacility"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasLaundryBooking -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasLaundryBooking">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#Laundry_Services"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#LaundryBooking"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasParentalAlerts -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasParentalAlerts">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#Parental_Engagement_and_Support"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#ParentalAlerts"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasParentalFeedback -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasParentalFeedback">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#Parental_Engagement_and_Support"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#ParentalFeedback"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasQuietStudySpace -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasQuietStudySpace">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#Academic_Facilities_and_Resources"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#QuietStudySpace"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Zeeshan_Haider/Hostel#has_ParentalPortal -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Zeeshan_Haider/Hostel#has_ParentalPortal">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#Parental_Engagement_and_Support"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#ParentalPortal"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/sbeo#hasQuality -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/sbeo#hasQuality">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#Food_Services"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#MessFacility"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasBackupPowerSupply -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasBackupPowerSupply">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#Health_and_Safety"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasBookingConfirmation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasBookingConfirmation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#Laundry_Services"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasCollaborationDetails -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasCollaborationDetails">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#Academic_Facilities_and_Resources"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasFeedbackMechanismForMess -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasFeedbackMechanismForMess">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#Food_Services"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasFeedbackSubmissionMethod -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasFeedbackSubmissionMethod">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#Parental_Engagement_and_Support"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasKitchenMaintenanceCoordinator -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasKitchenMaintenanceCoordinator">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#Food_Services"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasLibraryBooks -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasLibraryBooks">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#Library"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasLocationInstitute -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasLocationInstitute">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#AcademicInstitution"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasMaximumInternetSpeed -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasMaximumInternetSpeed">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#Academic_Facilities_and_Resources"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#AcademicInstitution"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasParentalPortalFeatures -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasParentalPortalFeatures">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#Parental_Engagement_and_Support"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasScheduledMaintenance -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasScheduledMaintenance">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#Laundry_Services"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasSecurityAuditSchedule -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasSecurityAuditSchedule">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#Health_and_Safety"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasStudyRoomCapacity -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasStudyRoomCapacity">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#StudyRoom"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasStudyRoomLocation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasStudyRoomLocation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#StudyRoom"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasUpdateFrequency -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasUpdateFrequency">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#Parental_Engagement_and_Support"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Zeeshan_Haider/Hostel#isOpen24Hours -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Zeeshan_Haider/Hostel#isOpen24Hours">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#Library"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topDataProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topDataProperty">
+        <rdfs:domain rdf:resource="https://w3id.org/sbeo#person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://w3id.org/sbeo#hasAccommodationCapacity -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/sbeo#hasAccommodationCapacity">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#Academic_Facilities_and_Resources"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/sbeo#hasId -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/sbeo#hasId">
+        <rdfs:comment>An unique identification number for hostel residents.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/Zeeshan_Haider/Hostel#AcademicInstitution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Zeeshan_Haider/Hostel#AcademicInstitution">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasName"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#Academic_Facilities_and_Resources"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Zeeshan_Haider/Hostel#Academic_Facilities_and_Resources -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Zeeshan_Haider/Hostel#Academic_Facilities_and_Resources"/>
+    
+
+
+    <!-- http://www.semanticweb.org/Zeeshan_Haider/Hostel#BookingSystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Zeeshan_Haider/Hostel#BookingSystem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#Academic_Facilities_and_Resources"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Zeeshan_Haider/Hostel#ClothesWashingArea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Zeeshan_Haider/Hostel#ClothesWashingArea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#Laundry_Services"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Zeeshan_Haider/Hostel#Food_Services -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Zeeshan_Haider/Hostel#Food_Services">
+        <rdfs:comment>Represents the food services provided within the hostel for dining</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Zeeshan_Haider/Hostel#Health_and_Safety -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Zeeshan_Haider/Hostel#Health_and_Safety"/>
+    
+
+
+    <!-- http://www.semanticweb.org/Zeeshan_Haider/Hostel#HealthcareFacility -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Zeeshan_Haider/Hostel#HealthcareFacility">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasName"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#Health_and_Safety"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Zeeshan_Haider/Hostel#InternetConnection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Zeeshan_Haider/Hostel#InternetConnection">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasMaximumInternetSpeed"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">100</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#Academic_Facilities_and_Resources"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Zeeshan_Haider/Hostel#KitchenFacility -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Zeeshan_Haider/Hostel#KitchenFacility">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#Food_Services"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Zeeshan_Haider/Hostel#LaundryBooking -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Zeeshan_Haider/Hostel#LaundryBooking">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasBookingConfirmation"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#Laundry_Services"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Zeeshan_Haider/Hostel#Laundry_Services -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Zeeshan_Haider/Hostel#Laundry_Services">
+        <rdfs:comment>: Represents the laundry service provided within the hostel for washing clothes.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Zeeshan_Haider/Hostel#Library -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Zeeshan_Haider/Hostel#Library">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#Academic_Facilities_and_Resources"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Zeeshan_Haider/Hostel#MessFacility -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Zeeshan_Haider/Hostel#MessFacility">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasFeedbackMechanismForMess"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#Food_Services"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Zeeshan_Haider/Hostel#ParentalAlerts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Zeeshan_Haider/Hostel#ParentalAlerts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#Parental_Engagement_and_Support"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Zeeshan_Haider/Hostel#ParentalFeedback -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Zeeshan_Haider/Hostel#ParentalFeedback">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasFeedbackSubmissionMethod"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#Parental_Engagement_and_Support"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Zeeshan_Haider/Hostel#ParentalPortal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Zeeshan_Haider/Hostel#ParentalPortal">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasUpdateFrequency"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#Parental_Engagement_and_Support"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Zeeshan_Haider/Hostel#Parental_Engagement_and_Support -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Zeeshan_Haider/Hostel#Parental_Engagement_and_Support">
+        <rdfs:comment>Represents the facility provided for parents to track their child&apos;s well-being in the hostel.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Zeeshan_Haider/Hostel#QuietStudySpace -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Zeeshan_Haider/Hostel#QuietStudySpace">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#Academic_Facilities_and_Resources"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Zeeshan_Haider/Hostel#SecurityMeasure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Zeeshan_Haider/Hostel#SecurityMeasure">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasSecurityAuditSchedule"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#Health_and_Safety"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Zeeshan_Haider/Hostel#StudyRoom -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Zeeshan_Haider/Hostel#StudyRoom">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/sbeo#hasAccommodationCapacity"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">20</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#Academic_Facilities_and_Resources"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Zeeshan_Haider/Hostel#WaterQualityReport -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Zeeshan_Haider/Hostel#WaterQualityReport">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasScheduledMaintenance"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#Health_and_Safety"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/sbeo#ActiveFireProtectionDevice -->
+
+    <owl:Class rdf:about="https://w3id.org/sbeo#ActiveFireProtectionDevice">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#hasScheduledMaintenance"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:comment>It is an integral part of the fire protection used as a first response to minimize the spread of fire and related effects.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/sbeo#EmergencyEvacuation -->
+
+    <owl:Class rdf:about="https://w3id.org/sbeo#EmergencyEvacuation">
+        <rdfs:comment>It represents an immediate escape of people away from a particular area that has ongoing or imminent hazard to their lives or property.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/sbeo#MeetingRoom -->
+
+    <owl:Class rdf:about="https://w3id.org/sbeo#MeetingRoom">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/sbeo#hasAccommodationCapacity"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">30</owl:minQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#Academic_Facilities_and_Resources"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/sbeo#StorageRoom -->
+
+    <owl:Class rdf:about="https://w3id.org/sbeo#StorageRoom">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/Zeeshan_Haider/Hostel#Academic_Facilities_and_Resources"/>
+        <rdfs:comment>Room for storage.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/sbeo#person -->
+
+    <owl:Class rdf:about="https://w3id.org/sbeo#person">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/sbeo#hasId"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
